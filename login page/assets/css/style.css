@@ -1,0 +1,49 @@
+*
+{
+margin:0;
+padding:0;
+}
+html,body {
+
+    background-image: linear-gradient(to bottom right, rgb(197, 14, 11), rgb(255, 255, 255));
+    background-size: cover;
+    background-repeat: no repeat;
+    background-position: top right;
+    background-attachment: fixed;
+    display: grid;
+    height: 100%;
+}
+
+#form {
+    background-color: rgba(12, 18, 33, 0.14);
+    border-radius: 25px;		
+    padding: 20Px;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.col1 {
+    float: left;
+    width: auto;
+    margin: 7px;
+}
+
+.col2 {
+    float: right;
+    width: auto;
+    margin: 7px;
+}
+input {
+    border-radius: 25px;
+}
+#buttons{
+    float:right;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+}
+.button{
+    margin-right: 5px;
+    background-image: linear-gradient(to bottom right,rgba(185, 26, 26, 0.538),rgba(29, 51, 179, 0.516));   
+}
